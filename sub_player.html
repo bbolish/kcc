@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>KCC EGIS 선수단</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/kcc_index.css">
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/kcc_mobile.js"></script>
+
+</head>
+<body>
+<section id="wrap">
+	<header class="top">
+		<!-- 로고 -->
+		<h1><a href="index.html" class="sp logo">전주 KCC</a></h1>
+
+		<!-- 전체카테고리 -->
+		<button type="button" class="cate_btn">
+			<span  class="sp">전체카테고리</span>
+		</button>
+		<div class="all_cate" data-allcate>
+			<ul>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Club</em>클럽KCC
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">인사말</a></li>
+				<li><a href="#" class="sub_cate">구단프런트</a></li>
+				<li><a href="#" class="sub_cate">구단CI</a></li>
+				<li><a href="#" class="sub_cate">구단연혁</a></li>
+				<li><a href="#" class="sub_cate">구장안내</a></li>
+				<li><a href="#" class="sub_cate">역대시즌리뷰</a></li>
+				<li><a href="#" class="sub_cate">스폰서</a></li>
+				<li><a href="#" class="sub_cate">KCC광고</a></li>
+				</ul>
+			</li>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Player</em>선수정보
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">코칭스텝</a></li>
+				<li><a href="#" class="sub_cate">선수</a></li>
+				<li><a href="#" class="sub_cate">응원단</a></li>
+				</ul>
+			</li>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Game</em>경기기록
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">경기안내</a></li>
+				<li><a href="#" class="sub_cate">경기기록</a></li>
+				<li><a href="#" class="sub_cate">경기MVP</a></li>
+				<li><a href="#" class="sub_cate">티켓팅</a></li>
+				<li><a href="#" class="sub_cate">농구용어사전</a></li>
+				</ul>
+			</li>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Media</em>기사 및 영상
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">이지스 News</a></li>
+				<li><a href="#" class="sub_cate">이지스 Photo</a></li>
+				<li><a href="#" class="sub_cate">이지스 Movie</a></li>
+				<li><a href="#" class="sub_cate">명예기자</a></li>
+				</ul>
+			</li>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Fanzone</em>게시판
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">KCC 회원</a></li>
+				<li><a href="#" class="sub_cate">이지스마당</a></li>
+				<li><a href="#" class="sub_cate">이벤트</a></li>
+				<li><a href="#" class="sub_cate">다운로드</a></li>
+				<li><a href="#" class="sub_cate">관련사이트</a></li>
+				</ul>
+			</li>
+			<li class="one_depth">
+				<a href="#" class="cate_ttl">
+					<em>Jr.KCC</em>주니어KCC 소개
+				</a>
+				<ul class="two_depth">
+				<li><a href="#" class="sub_cate">주니어 KCC소개</a></li>
+				<li><a href="#" class="sub_cate">강사진소개</a></li>
+				<li><a href="#" class="sub_cate">프로그램 안내</a></li>
+				<li><a href="#" class="sub_cate">체육관 약도</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div>
+
+		<!-- 계열사사이트 -->
+		<button type="button" class="site_btn">
+			<span  class="sp">계열사페이지</span>
+		</button>
+		<div class="sub_com">	
+			<ul class="company_area">
+			<li  class="homecc">
+				<a href="http://www.homecc.co.kr/main/main.do" target="_blank">
+					<img src="img/homecc.png" width="105" height="22" alt="홈씨씨">
+					<span>KCC HOMECC</span>
+					<span>바로가기</span>
+				</a>
+			</li>
+			<li class="switzen">
+				<a href="http://www.switzen.com/" target="_blank">
+					<img src="img/top_switzen.png" width="63" height="22" alt="스위첸">
+					<span>스위첸</span>
+					<span>바로가기</span>
+				</a>
+			</li>
+			<li class="kcc">
+				<a href="http://www.kccworld.co.kr/" target="_blank">
+					<img src="img/ci_img01.png" width="38" height="22" alt="KCC">
+					<span>KCC</span>
+					<span>바로가기</span>
+				</a>
+			</li>
+			</ul>
+		</div>
+	</header>
+	<div class="dimmed"></div>
+	<!-- container -->
+	<section id="container">
+		<section id="content">
+			<div class="cate">Player > 선수단
+				<div class="cate_sel">
+				<select>
+					<option>카테고리</option>
+					<option>코칭스텝</option>
+					<option>선수</option>
+					<option>응원단</option>
+
+				</select>
+				</div>
+			</div>
+			<div class="player_page">
+				<ul class="player_btn">
+				<li><a href="#" class="on">전체보기</a></li>
+				<li><a href="#" >가드</a></li>
+				<li><a href="#" >포워드</a></li>
+				<li><a href="#" >센터</a></li>
+				<li><a href="#" >군입대</a></li>
+				</ul>
+
+				<ul class="player">
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" width="100%"  alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="player_area">
+						<img src="img/img_player.jpg" style="width:100%" alt="전태풍">
+						<div class="player_info">
+							<span>가드</span>
+							<span>NO.3 전태풍</span>
+						</div>
+					</div>
+				</li>
+				</ul>
+				<button type="button" class="more_btn">더보기</button>
+			</div>
+		</section>
+		<a href="#" class="top_btn">top</a>
+	</section>
+	<!-- //container -->
+	<!-- footer -->
+	<footer>
+		<div class="btn_bar">
+			<a href="login.html" class="login_btn">
+				로그인
+			</a>
+			<a href="http://www.kccegis.com/main/main.asp" class="pc_btn">
+				PC버전
+			</a>
+		</div>
+		<div class="bottom">
+			<span class="copyright">copyright (C) 2013 kcc egis basketball club. all rights reserved.</span>
+			<div class="sns">
+				<a href="http://www.sportsteam.co.kr/product/list.php?brand=kcc" target="_blank" class="shop"><span class="sp">샵</span></a>
+				<a href="https://www.facebook.com/kccegissns/" target="_blank" class="facebook"><span class="sp">facebook</span></a>
+				<a href="https://twitter.com/kccegissns" target="_blank" class="twitter"><span class="sp">twitter</span></a>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+</section>
+</body>
+</html>
